@@ -1,4 +1,4 @@
-# **Luxury Retail Fraud Detection Project (2025)**
+# **Luxury Retail Fraud Detection Project **
 
 **A Python + SQL hybrid case study analyzing real-time luxury retail transactions to detect fraud patterns, understand customer behavior, and identify high-risk transactions.**
 
