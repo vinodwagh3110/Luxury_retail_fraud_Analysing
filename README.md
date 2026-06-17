@@ -1,48 +1,67 @@
-###Luxury Retail Fraud Detection Project (2025)###
+*** Luxury Retail Fraud Detection Project (2025) ***
 
-A Python + SQL hybrid case study analyzing real-time luxury retail transactions to detect fraud patterns, understand customer behavior, and identify high-risk transactions.
+**A Python + SQL hybrid case study analyzing real-time luxury retail transactions to detect fraud patterns, understand customer behavior, and identify high-risk transactions.**
 
-This project demonstrates data cleaning, analysis, visualization, and SQL reporting, making it ideal for showcasing data analytics and data engineering skills.
+This project demonstrates **data cleaning, analysis, visualization, and SQL reporting**, making it ideal for showcasing **Data Analytics** and **Data Engineering** skills.
 
-🛠 Tools & Libraries Used
-    Python Libraries: pandas, numpy, matplotlib, seaborn
-    SQL: MySQL for querying and aggregating data
-    Visualization: Bar charts, scatter plots, histograms, pie charts
-    IDE: VS Code
+---
 
-📊 Key Insights from Analysis
-1. Fraud vs Non-Fraud Transactions:
+## 🛠 Tools & Libraries Used
 
-   Total Fraudulent Transactions: 66
-   Total Non-Fraud Transactions: 2067
+- **Python Libraries:** pandas, numpy, matplotlib, seaborn
+- **SQL:** MySQL for querying and aggregating data
+- **Visualization:** Bar charts, scatter plots, histograms, pie charts
+- **IDE:** VS Code
 
-2. Fraud by Customer Loyalty Tier:
+---
 
-   Highest fraud in Bronze, followed by Silver and Gold.
+## 📊 Key Insights from Analysis
 
-3. Customer Age vs Purchase Amount:
+### 1. Fraud vs Non-Fraud Transactions
 
-   Fraud mostly occurs in younger to middle-age customers.
-   Older customers have fewer fraud cases.
+- **Total Fraudulent Transactions:** 66
+- **Total Non-Fraud Transactions:** 2067
 
-4. Fraud by Payment Method:
+### 2. Fraud by Customer Loyalty Tier
 
-   Debit cards are most targeted, followed by gift cards and mobile payments.
+- **Highest fraud detected in Bronze tier customers**
+- Followed by **Silver** and **Gold** tiers
 
-5. Purchase Amount Distribution:
+### 3. Customer Age vs Purchase Amount
 
-   Fraudulent transactions are more frequent at lower to mid-range purchase amounts.
+- Fraud mostly occurs among **young and middle-aged customers**
+- Older customers show **significantly fewer fraud cases**
 
-6. High-Risk Transactions:
+### 4. Fraud by Payment Method
 
-   Flagged using high purchase amounts and Bronze loyalty tier criteria.
+- **Debit Cards** are the most targeted payment method
+- Followed by **Gift Cards** and **Mobile Payments**
 
-📈 Sample Visualizations
+### 5. Purchase Amount Distribution
 
-💡 SQL Insights
-Monthly high-risk transaction trends
-Fraud percentage by store
-Average spend by customer loyalty tier
-Fraud vs high-risk transaction overlap
-Average footfall analysis
-(All SQL queries available in Fraud_Analysis.sql)
+- Fraudulent transactions are more common in **low to medium purchase ranges**
+
+### 6. High-Risk Transactions
+
+- High-risk transactions were identified using:
+  - **High Purchase Amount**
+  - **Bronze Loyalty Tier**
+  - **Fraud Indicators**
+
+---
+
+## 📈 Sample Visualizations
+
+## 💡 SQL Insights
+
+The project includes advanced SQL analysis such as:
+
+- **Monthly High-Risk Transaction Trends**
+- **Fraud Percentage by Store**
+- **Average Spend by Customer Loyalty Tier**
+- **Fraud vs High-Risk Transaction Overlap**
+- **Average Footfall Analysis**
+
+> **All SQL queries are available in `Fraud_Analysis.sql`.**
+
+
